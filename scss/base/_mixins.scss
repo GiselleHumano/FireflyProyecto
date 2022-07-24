@@ -1,0 +1,4 @@
+@mixin borde ($color: gray,$grosor:0.1px,$opacidad:1){
+    border: $grosor solid $color;
+    opacity: $opacidad;
+}

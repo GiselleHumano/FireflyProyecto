@@ -1,0 +1,25 @@
+.preguntas {
+    margin: 2rem;
+}
+
+.accordion-button {
+    font-size: 1rem;
+    font-weight: bold;
+    &:focus{
+        background-color: rgba(240, 240, 240, 0.8);
+        color: map-get($paleta, ("colorPrincipal"));
+    }
+}
+
+.mediosDePago {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+}
+
+#mercadoPago {
+    height: 30px;
+}

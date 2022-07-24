@@ -1,0 +1,441 @@
+/*base*/
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Fraunces:opsz@9..144&family=Playfair+Display:wght@700&family=Poppins:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f0f0f0; }
+
+.botonComun, .botonComprar, .botonSinstock, .botonEnviar {
+  background-color: white;
+  color: #1b889e;
+  border: solid #1b889e;
+  width: 10rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: #1b889e;
+  font-size: medium;
+  border-radius: 1rem;
+  font-weight: bold; }
+  .botonComun:hover, .botonComprar:hover, .botonSinstock:hover, .botonEnviar:hover {
+    background-color: #1b889e;
+    color: white; }
+
+.botonComprar {
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite; }
+
+.botonSinstock {
+  border-color: gray;
+  background-color: gray;
+  color: white; }
+  .botonSinstock:hover {
+    background-color: gray;
+    color: white;
+    cursor: default; }
+
+/*nav*/
+.encabezadoEnvio {
+  background-color: #1b889e;
+  padding: 0.5vh;
+  text-align: center; }
+  .encabezadoEnvio h1 {
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    font-size: 0.8rem; }
+
+.navbar-brand {
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: bold;
+  font-size: 2rem; }
+  .navbar-brand img {
+    height: 2.2rem;
+    width: 2.2rem; }
+
+.navbar-light .navbar-brand {
+  color: #1b889e; }
+  .navbar-light .navbar-brand:hover {
+    color: #135f6e; }
+  .navbar-light .navbar-brand:active {
+    color: #1b889e;
+    border: #135f6e; }
+
+.btn-outline-success {
+  color: #1b889e;
+  border-color: #1b889e; }
+  .btn-outline-success:hover {
+    background-color: #1b889e;
+    color: white; }
+
+/*index*/
+.imagenJabon {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: auto; }
+  .imagenJabon img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    border: 0.5vh outset #1b889e;
+    padding: 1rem; }
+
+.textoJabon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem; }
+  .textoJabon p {
+    font-weight: bold; }
+  .textoJabon h3 {
+    padding-top: 1.5rem;
+    font-size: 5vh;
+    font-family: 'Playfair Display', serif;
+    color: #1b889e; }
+
+#parrafoJabonOferta {
+  padding: 2rem 0rem 2rem 0rem;
+  font-weight: normal;
+  text-align: justify; }
+
+.verOferta {
+  background-color: #1b889e;
+  width: 4rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  width: 9rem;
+  border-radius: 2rem;
+  border: #1b889e;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-iteration-count: infinite; }
+  .verOferta a {
+    text-decoration: none;
+    color: white; }
+  .verOferta:hover {
+    background-image: linear-gradient(#0d849c, #60c6d8); }
+
+.visitarRedes {
+  text-align: center;
+  padding: 3rem; }
+  .visitarRedes a {
+    padding: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #1b889e;
+    font-weight: bold; }
+
+.tituloProductosDestacados {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  padding: 1rem;
+  background-color: white;
+  text-align: center;
+  font-size: 1rem; }
+
+.catalogoProductos div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 2rem 1rem 2rem 1rem;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-evenly; }
+  .catalogoProductos div figure {
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0rem 1rem 4rem 1rem;
+    padding-bottom: 1rem;
+    border: 0.1px solid gray;
+    opacity: 1; }
+    .catalogoProductos div figure img {
+      height: 15rem;
+      border-radius: 1.5rem;
+      padding: 1rem; }
+    .catalogoProductos div figure p {
+      padding: 1rem;
+      text-align: center; }
+  .catalogoProductos div .sinStock {
+    border: 0.1px solid gray;
+    opacity: 0.3; }
+
+.catalogoProductos figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bolder; }
+
+/*secciones*/
+.tituloSeleccion {
+  padding: 3.5rem 0rem 3.5rem 0rem;
+  color: #1f9bb4;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold; }
+
+.btn-primary {
+  border: #1b889e;
+  background-color: #1b889e; }
+  .btn-primary:hover {
+    background-color: #1b889e;
+    opacity: 0.8; }
+
+.page-item.active .page-link {
+  background-color: #1b889e;
+  border-color: #1b889e; }
+
+.page-link {
+  color: #1b889e; }
+
+.titulosProductos {
+  color: #1b889e;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold; }
+
+.clasificacionProductos {
+  justify-content: center;
+  padding: 2rem 2rem 4rem 2rem;
+  display: flex;
+  align-items: baseline; }
+
+.dropdown {
+  padding-left: 1rem; }
+
+.paginacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem; }
+  .paginacion p {
+    padding-left: 1rem; }
+  .paginacion:hover {
+    color: #1b889e;
+    cursor: pointer; }
+
+.textoNosotros {
+  justify-content: center;
+  border: 1px solid #1b889e;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 0px 30px 0px 30px;
+  margin-bottom: 80px;
+  border: 0.1px solid gray;
+  opacity: 1; }
+  .textoNosotros:hover {
+    background-color: #1b889e;
+    color: white; }
+
+span {
+  font-weight: bolder; }
+
+.formulario {
+  margin: 2rem;
+  padding: 2rem;
+  border: 0.1px solid gray;
+  opacity: 1; }
+
+.tituloFormulario {
+  text-align: center;
+  color: #1b889e;
+  font-weight: bold;
+  font-size: 1.5rem; }
+
+.form-check {
+  display: flex;
+  justify-content: center;
+  padding: 2rem; }
+
+.mb-3 {
+  padding-top: 1rem; }
+
+.botonesFormulario {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .botonesFormulario button {
+    border: 1px solid #1b889e;
+    margin: 0rem 2rem 0rem 2rem; }
+    .botonesFormulario button:hover {
+      background-color: #1b889e;
+      border: 1px solid #1b889e;
+      color: white; }
+
+.preguntas {
+  margin: 2rem; }
+
+.accordion-button {
+  font-size: 1rem;
+  font-weight: bold; }
+  .accordion-button:focus {
+    background-color: rgba(240, 240, 240, 0.8);
+    color: #1b889e; }
+
+.mediosDePago {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  padding-bottom: 5rem; }
+
+#mercadoPago {
+  height: 30px; }
+
+.textoPaginaProceso {
+  text-align: center; }
+
+.imagenPaginaProceso {
+  padding: 2rem;
+  display: flex;
+  justify-content: center; }
+  .imagenPaginaProceso img {
+    height: 20rem; }
+
+/*footer*/
+footer {
+  background-color: #1b889e;
+  justify-content: center;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  color: white;
+  padding: 3rem;
+  bottom: 0; }
+
+div li {
+  list-style-type: none; }
+
+.footerTitulo {
+  padding-top: 2rem;
+  font-weight: bolder; }
+
+.iconosFooter {
+  padding: 1rem;
+  display: flex;
+  justify-content: center; }
+  .iconosFooter img {
+    width: 3rem;
+    height: 3rem; }
+
+.numeroMail {
+  padding-right: 1.5rem; }
+
+/*mediaqueries*/
+/*RESPONSIVE TABLET*/
+@media (min-width: 760px) {
+  /* index - oferta del mes*/
+  .textoJabon h3 {
+    font-size: 5vh; }
+  /*footer*/
+  footer {
+    display: flex; }
+  .iconosFooter img {
+    width: 2rem;
+    height: 2rem; }
+  /*Estilo secciones-productos*/
+  .ordenarProductos {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 4rem; }
+  .clasificacionProductos {
+    justify-content: start;
+    display: flex;
+    align-items: baseline; }
+  /*Estilo secciones-nosotros*/
+  .textoNosotros {
+    margin: 2rem 5rem 6rem 5rem; }
+  /*Estilo secciones-contacto*/
+  .formulario {
+    margin: 4rem; }
+  /*Estilos secciones-preguntas frecuentes*/
+  .preguntas {
+    margin: 4rem; }
+  /*Estilo secciones-Pagina en proceso*/
+  .imagenPaginaProceso {
+    padding: 4rem; }
+    .imagenPaginaProceso img {
+      height: 30rem; } }
+
+@media (min-width: 1024px) {
+  /*navbar*/
+  .encabezadoEnvio {
+    background: linear-gradient(180deg, #1992ab 0%, #1f9bb4 50%, #48bad1 100%); }
+  /* index - oferta del mes*/
+  .imagenJabon img {
+    height: 90%;
+    width: 90%; }
+  .textoJabon h3 {
+    font-size: 3rem; }
+  .ofertaDelMes {
+    display: flex;
+    align-items: center;
+    padding: 40px; }
+  .gridOferta {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    gap: 10px;
+    overflow: hidden;
+    align-items: center; }
+  .textoJabon h3 {
+    font-size: 5vh; }
+  .imagenJabon {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+    grid-column: 1/7; }
+    .imagenJabon img {
+      height: 80%;
+      width: 80%; }
+  .textoJabon {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 2rem;
+    grid-column: 7/12; }
+  /* index - Proctos destacados*/
+  .catalogoProductos {
+    padding: 5rem 0rem 2rem 0rem; }
+  /*footer*/
+  footer {
+    background: linear-gradient(180deg, #48bad1 0%, #1f9bb4 50%, #1992ab 100%); }
+  .iconosFooter img {
+    width: 3rem;
+    height: 3rem;
+    padding: 1vh; }
+  /*Estilos secciones-contacto*/
+  .formulario {
+    margin: 6rem 15rem 6rem 15rem;
+    padding: 4rem;
+    border-radius: 2px; }
+  /*Estilos secciones-nosotros*/
+  .textoNosotros {
+    margin: 3rem 20rem 14rem 20rem; }
+  /*Estilos secciones-preguntas frecuentes*/
+  .preguntas {
+    margin: 6rem 10rem 10rem 10rem; }
+  /*Estilo secciones-Pagina en proceso*/
+  .imagenPaginaProceso {
+    padding: 6rem; }
+    .imagenPaginaProceso img {
+      height: 40rem; } }

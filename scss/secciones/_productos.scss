@@ -1,0 +1,59 @@
+.tituloSeleccion {
+    padding: 3.5rem 0rem 3.5rem 0rem;
+    color: #1f9bb4;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-primary {
+    border: map-get($paleta, ("colorPrincipal"));
+    background-color: map-get($paleta, ("colorPrincipal"));
+    &:hover{
+        background-color:map-get($paleta, ("colorPrincipal"));
+        opacity: 0.8;
+    }
+}
+
+.page-item.active .page-link {
+    background-color: map-get($paleta, ("colorPrincipal"));
+    border-color:map-get($paleta, ("colorPrincipal"));
+}
+
+.page-link {
+    color:map-get($paleta, ("colorPrincipal"));
+}
+
+.titulosProductos {
+    color:map-get($paleta, ("colorPrincipal"));
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.clasificacionProductos {
+    justify-content: center;
+    padding: 2rem 2rem 4rem 2rem;
+    display: flex;
+    align-items: baseline;
+}
+
+.dropdown {
+    padding-left: 1rem;
+}
+
+.paginacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+
+    p {
+        padding-left: 1rem;
+    }
+
+    &:hover{
+    color: map-get($paleta, ("colorPrincipal"));
+    cursor: pointer;
+    }
+}

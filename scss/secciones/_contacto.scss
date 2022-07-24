@@ -1,0 +1,42 @@
+.formulario {
+    margin: 2rem;
+    padding: 2rem;
+    @include borde;
+}
+
+.tituloFormulario {
+    text-align: center;
+    color: map-get($paleta, ("colorPrincipal"));
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.form-check {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.mb-3 {
+    padding-top: 1rem;
+}
+
+.botonesFormulario {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+        border: 1px solid map-get($paleta, ("colorPrincipal"));
+        margin: 0rem 2rem 0rem 2rem;
+
+        &:hover{
+            background-color: map-get($paleta, ("colorPrincipal"));
+            border: 1px solid map-get($paleta, ("colorPrincipal"));
+            color: white;
+        }
+    }
+}
+
+

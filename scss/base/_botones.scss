@@ -1,0 +1,23 @@
+.botonComprar{
+@extend .botonComun;
+    animation-name: pulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.botonSinstock{
+    @extend .botonComun;
+    border-color: map-get($paleta, ("colorSinStock"));
+    background-color: map-get($paleta, ("colorSinStock"));
+    color: white;
+    &:hover{
+        background-color: map-get($paleta, ("colorSinStock"));
+        color: white;
+        cursor:default;
+    }
+}
+
+.botonEnviar{
+    @extend .botonComun;
+
+}

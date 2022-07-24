@@ -1,0 +1,19 @@
+.textoNosotros {
+    justify-content: center;
+    border: 1px solid map-get($paleta, ("colorPrincipal"));
+    border-radius: 10px;
+    padding: 40px;
+    margin: 0px 30px 0px 30px;
+    margin-bottom: 80px;
+    @include borde;
+
+    &:hover{
+        background-color: map-get($paleta, ("colorPrincipal"));
+        color: white;
+    }
+}
+
+span {
+    font-weight: bolder;
+}
+

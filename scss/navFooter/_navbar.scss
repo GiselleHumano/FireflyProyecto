@@ -1,0 +1,45 @@
+.encabezadoEnvio{
+    background-color: map-get($paleta, ("colorPrincipal"));
+    padding: 0.5vh;
+    text-align: center;
+
+    h1{
+        margin-bottom: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        text-align: center;
+        color: white;
+        font-size: 0.8rem;
+    }
+}
+
+.navbar-brand{
+font-family: 'Baloo Tamma 2', cursive;
+font-weight: bold;
+font-size: 2rem;
+img{
+height: 2.2rem;
+width: 2.2rem;
+}
+}
+
+.navbar-light .navbar-brand{
+    color: map-get($paleta, ("colorPrincipal"));
+    &:hover{
+        color: #135f6e;
+    }
+    &:active{
+        color: map-get($paleta, ("colorPrincipal"));
+        border: #135f6e;;
+    }
+
+}
+
+.btn-outline-success {
+    color: map-get($paleta, ("colorPrincipal"));
+    border-color: map-get($paleta, ("colorPrincipal"));
+    &:hover{
+        background-color:map-get($paleta, ("colorPrincipal"));
+        color: white;
+    }
+}

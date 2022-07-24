@@ -1,0 +1,172 @@
+/*RESPONSIVE TABLET*/
+
+@media (min-width:760px) {
+
+    /* index - oferta del mes*/
+
+    .textoJabon h3 {
+        font-size: 5vh;
+    }
+    
+    /*footer*/
+
+    footer {
+        display: flex;
+    }
+
+    .iconosFooter img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    /*Estilo secciones-productos*/
+
+    .ordenarProductos {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 4rem;
+    }
+
+    .clasificacionProductos {
+        justify-content: start;
+        display: flex;
+        align-items: baseline;
+    }
+
+    /*Estilo secciones-nosotros*/
+
+    .textoNosotros {
+        margin: 2rem 5rem 6rem 5rem;
+    }
+
+    /*Estilo secciones-contacto*/
+
+    .formulario {
+        margin: 4rem;
+    }
+
+    /*Estilos secciones-preguntas frecuentes*/
+
+    .preguntas {
+        margin: 4rem;
+    }
+
+    /*Estilo secciones-Pagina en proceso*/
+
+    .imagenPaginaProceso {
+        padding: 4rem;
+
+        img {
+            height: 30rem;
+        }
+    }
+}
+
+@media (min-width:1024px) {
+
+    /*navbar*/
+
+    .encabezadoEnvio{
+        background: linear-gradient(180deg, rgba(25, 146, 171, 1) 0%, rgba(31, 155, 180, 1) 50%, rgba(72, 186, 209, 1) 100%);
+    }
+
+    /* index - oferta del mes*/
+
+    .imagenJabon img {
+        height: 90%;
+        width: 90%;
+    }
+
+    .textoJabon h3 {
+        font-size: 3rem;
+    }
+
+    .ofertaDelMes {
+        display: flex;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .gridOferta {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        gap: 10px;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    .textoJabon h3 {
+        font-size: 5vh;
+    }
+
+    .imagenJabon {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        height: auto;
+        width: auto;
+        grid-column: 1/7;
+
+        img {
+            height: 80%;
+            width: 80%;
+        }
+    }
+
+    .textoJabon {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 2rem;
+        grid-column: 7/12;
+    }
+
+    /* index - Proctos destacados*/
+
+    .catalogoProductos {
+        padding: 5rem 0rem 2rem 0rem;
+    }
+
+    /*footer*/
+
+    footer{
+        background: linear-gradient(180deg, rgba(72, 186, 209, 1) 0%, rgba(31, 155, 180, 1) 50%, rgba(25, 146, 171, 1) 100%);
+    }
+
+    .iconosFooter img {
+        width: 3rem;
+        height: 3rem;
+        padding: 1vh;
+    }
+
+    /*Estilos secciones-contacto*/
+
+    .formulario {
+        margin: 6rem 15rem 6rem 15rem;
+        padding: 4rem;
+        border-radius: 2px;
+    }
+
+    /*Estilos secciones-nosotros*/
+
+    .textoNosotros {
+        margin: 3rem 20rem 14rem 20rem;
+    }
+
+    /*Estilos secciones-preguntas frecuentes*/
+
+    .preguntas {
+        margin: 6rem 10rem 10rem 10rem;
+    }
+
+    /*Estilo secciones-Pagina en proceso*/
+
+    .imagenPaginaProceso {
+        padding: 6rem;
+        img {
+            height: 40rem;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.botonComun{
+    background-color: white;
+    color: map-get($paleta, ("colorPrincipal"));
+    border: solid map-get($paleta, ("colorPrincipal"));
+    width: 10rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: map-get($paleta, ("colorPrincipal"));
+    font-size: medium;
+    border-radius: 1rem;
+    font-weight: bold;
+
+    &:hover{
+        background-color: map-get($paleta, ("colorPrincipal"));
+        color: white;
+    }
+}
+
